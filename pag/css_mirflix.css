@@ -2,10 +2,13 @@
 
 *{
     background-color: black;
-    color: white;
-    border-radius: 5px;
-    
+    color: white; 
 }
+
+img {
+    border-radius: 20px;
+}
+
 html, body{
     background-color: black;
     color: white;
@@ -75,11 +78,13 @@ nav ul li a:hover{
     
 }
 #Peliculas img{
-    height: 200px;
+    height: 300px;
+    width: 200px;
 }
 
 #series img{
-    height: 200px;
+    height: 300px;
+    width: 200px;
 }
 
 
@@ -97,31 +102,41 @@ nav ul li a:hover{
 #Actores img{
     border-radius: 200px;
     background-color: white;
-    height: 150px;
-
+    height: 160px;
+    width: 160px;
 }
 h1{
-    
+
     padding: 5px;
     text-align: center;
 }
-
+/* FESTIVALES **/
 #Festivales article{
     background-color: rgb(233, 86, 86);
     text-align: center;
-    
+    width: 25%;
+    margin-left: 10%;
+   float:inline-start;
 }
 
 #Festivales p, h4{
     background-color: rgb(233, 86, 86);
 }
 
+#Festivales img {
+    border-radius: 25px;
+}
+.festi{
+    margin-right: 1000px;
+}
+
+/* LO MAS VISTO */
 #lomasvisto{
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 70px;
+    gap: 7 0px;
     padding: 0;
     margin-left: 10px;
     text-align: center;
@@ -133,7 +148,9 @@ h1{
 
 }
 #lomasvisto img{
-    height: 200px;
+    height: 300px;
+    width: 200px;
+   
 }
 
 #footer{
