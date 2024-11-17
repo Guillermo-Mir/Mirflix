@@ -72,16 +72,59 @@ nav ul li a:hover{
  }
 
  .Video_Trailer{
+    width: 952px;
+    height: 535px; 
+    /*
     width: 560px;
-    height: 315px; 
+    height: 315px;
+    */ 
     margin-left: 10%;
  }
+ /*info pelicula*/
 .Info_general{
-    margin-left: 35%;
+    margin-left: 60%;
+    margin-top: 7%;
+}
+.Info{
+    margin-left: 60%; 
 }
 .Sinopsis{
-    margin-top: 20%;
+    margin-top: -6%;
     margin-left: 5%;
+    padding-right: 50%;
+}
+/*Reparto*/
+h4{
+    margin-left: 14%;
+}
+#Reparto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 10%;
+}
+
+#Reparto article {
+    text-align: center;
+}
+
+#Reparto img {
+    height: 150px;
+    width: 125px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+#Reparto img:hover {
+    transform: scale(1.1);
+}
+
+#Reparto p {
+    margin-top: 10px;
+    font-size: 1rem;
 }
 /* Footer*/
 #footer{
