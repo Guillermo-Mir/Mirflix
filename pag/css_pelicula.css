@@ -1,5 +1,4 @@
 *{
-    background-color: black;
     color: white; 
 }
 
@@ -20,7 +19,6 @@ html, body{
 header{
     color: black;
     border-radius: 5px;
-    background-color: black;
     text-align: center;
     position: fixed;
     z-index: 1;
@@ -74,10 +72,6 @@ nav ul li a:hover{
  .Video_Trailer{
     width: 952px;
     height: 535px; 
-    /*
-    width: 560px;
-    height: 315px;
-    */ 
     margin-left: 10%;
  }
  /*info pelicula*/
@@ -89,26 +83,29 @@ nav ul li a:hover{
     margin-left: 60%; 
 }
 .Sinopsis{
-    margin-top: -6%;
+    margin-top: -10%;
     margin-left: 5%;
     padding-right: 50%;
 }
 /*Reparto*/
-h4{
-    margin-left: 14%;
-}
 #Reparto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    margin: 20px 10%;
-}
-
+    gap: 10px;
+}  
 #Reparto article {
     text-align: center;
+    width: 150px; 
+    margin-left: 9%;
 }
-
+    
+#Reparto article h4 {
+    margin-top: 10px; 
+    text-align: center;
+    color: white;
+}
+    
 #Reparto img {
     height: 150px;
     width: 125px;
@@ -117,14 +114,8 @@ h4{
     margin: 0 auto;
     transition: transform 0.3s ease;
 }
-
 #Reparto img:hover {
     transform: scale(1.1);
-}
-
-#Reparto p {
-    margin-top: 10px;
-    font-size: 1rem;
 }
 /* Footer*/
 #footer{

@@ -1,7 +1,6 @@
 
 
 *{
-    background-color: black;
     color: white; 
 }
 
@@ -62,6 +61,12 @@ nav ul li a:hover{
    background-color:red;
    transition: 0,5s;
 }
+h1{
+
+    padding: 5px;
+    text-align: center;
+}
+/*Peliculas*/
 #Peliculas, #series{
     border-radius: 5px;
     display: flex;
@@ -82,7 +87,7 @@ nav ul li a:hover{
     height: 300px;
     width: 200px;
 }
-
+ /*Series */
 #series img{
     height: 300px;
     width: 200px;
@@ -91,6 +96,7 @@ nav ul li a:hover{
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
+/*Actores*/
 #Actores{
     border-radius: 5px;
     display: flex;
@@ -107,11 +113,6 @@ nav ul li a:hover{
     background-color: white;
     height: 160px;
     width: 160px;
-}
-h1{
-
-    padding: 5px;
-    text-align: center;
 }
 /* FESTIVALES **/
 #Festivales article{
