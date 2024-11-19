@@ -1,4 +1,4 @@
-*{
+* {
     color: white; 
 }
 
@@ -6,7 +6,7 @@ img {
     border-radius: 20px;
 }
 
-html, body{
+html, body {
     background-color: black;
     color: white;
     border-radius: 5px;
@@ -16,7 +16,8 @@ html, body{
     padding: 0;
     scroll-behavior: smooth;
 }
-header{
+
+header {
     color: black;
     border-radius: 5px;
     background-color: black;
@@ -25,61 +26,84 @@ header{
     z-index: 1;
     width: 100%;
 }
-main{
+
+main {
     position: relative;
     padding-top: 10%;
 }
-header img{
+
+header img {
     max-width: 500px;
     width: 50%;
-    
 }
-nav{
+
+nav {
     text-align: center;
-    padding-right: 50px;  
-      
+    padding-right: 50px;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
 }
-nav ul li  {
+
+nav ul li {
     border-radius: 10px;
-    background-color: black ;
+    background-color: black;
     text-align: center;
     color: white;
     display: inline;
     padding: 10px;
 }
+
 nav ul li a {
     text-decoration: none;
     margin-left: 10px;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+#Peliculas_Y_Series {
+    margin-top: 6%; 
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;               
+    justify-content:space-between;                     
+    width: 90%; 
     
+                 
 }
-nav ul li a:hover{
-   background-color:red;
-   transition: 0,5s;
-}
-#Peliculas_Y_Series{
-   margin-top: 8%; 
-   margin-left: 2%;
-   flex-direction: row;
-   flex-wrap: wrap;
-   width: 45%;
-   display: flex;
-   justify-content: center;
-   gap: 50px;
-}
-#Peliculas_Y_Series article{
+
+#Peliculas_Y_Series article {
+    width: 48%;                   
     border: 1px solid red;
+    display: flex;
+    flex-direction: row;           
+    align-items: center;           
+    padding: 10px;
 }
 
-#Peliculas_Y_Series article img{
-width: 200px;
-height: 300px;
-padding-left: 10px;
+#Peliculas_Y_Series article a img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;         
 }
 
-.container{
-padding-left: 10px;
+.container {
+    padding-left: 10px;
+    margin: 0;                     
+    text-align: left;
 }
- 
+
+#footer {
+    text-align: center;
+}
+
+#footer img {
+    border-radius: 500px;
+    width: 65px;
+    height: 65px;
+}
+

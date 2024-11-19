@@ -121,3 +121,9 @@ nav ul li a:hover{
 #footer{
     text-align: center;
 }
+#footer img{
+    border-radius: 500px;
+    width: 65px;
+    height: 65px;
+
+}

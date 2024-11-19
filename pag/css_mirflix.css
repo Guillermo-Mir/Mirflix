@@ -174,18 +174,12 @@ h1{
 
 #footer{
     text-align: center;
+
+}
+#footer img{
+    border-radius: 500px;
+    width: 65px;
+    height: 65px;
+
 }
 
-/* Pelicula Concreta*/
- #Trailer{
-    float:inline-start;
- }
-
- .Titulo_Trailer{
-    margin-left: 10% ;
- }
-
- .Video_Trailer{
-    width: 560px;
-    height: 315px; 
- }
