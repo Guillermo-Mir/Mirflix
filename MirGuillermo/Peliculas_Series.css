@@ -1,3 +1,4 @@
+/* Estilo global */
 * {
     color: white; 
 }
@@ -36,7 +37,7 @@ header img {
     max-width: 500px;
     width: 50%;
 }
-
+/*Navegador*/
 nav {
     text-align: center;
     padding-right: 50px;
@@ -64,7 +65,7 @@ nav ul li a:hover {
     background-color: red;
     transition: 0.5s;
 }
-
+/*Peliculas y series*/
 #Peliculas_Y_Series {
     margin-top: 6%; 
     margin-left: 5%;
@@ -96,7 +97,7 @@ nav ul li a:hover {
     margin: 0;                     
     text-align: left;
 }
-
+/*Footer*/
 #footer {
     text-align: center;
 }
